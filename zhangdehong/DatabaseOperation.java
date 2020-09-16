@@ -1,4 +1,4 @@
-public class DB {
+public class Database {
     //数据库连接
     private Connection connection = null;
     //sql语句
@@ -13,7 +13,7 @@ public class DB {
         return sql;
     }
     //构造函数
-    public DB(){
+    public Database(){
         try {
             //打开连接
             //1. 加载驱动
